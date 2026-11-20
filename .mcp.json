@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "development-radio": {
+      "type": "http",
+      "url": "https://developmentradio.dev/mcp"
+    }
+  }
+}

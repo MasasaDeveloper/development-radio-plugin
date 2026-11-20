@@ -1,0 +1,15 @@
+{
+  "name": "development-radio",
+  "owner": {
+    "name": "Dorel Masasa",
+    "url": "https://developmentradio.dev/about/"
+  },
+  "description": "The Development Radio plugin: episode search, show notes, primary sources and timed transcripts.",
+  "plugins": [
+    {
+      "name": "development-radio",
+      "source": "./",
+      "description": "Search Development Radio's episodes on AI, security and software development news and engineering practices, with each episode's primary sources and timed transcript."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.developmentradio/development-radio",
+  "title": "Development Radio",
+  "description": "Search podcast episodes on AI, security and software news; get sources and timed transcripts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://developmentradio.dev/",
+  "repository": {
+    "url": "https://github.com/MasasaDeveloper/development-radio-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://developmentradio.dev/assets/avatar.png",
+      "mimeType": "image/png",
+      "sizes": ["800x800"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://developmentradio.dev/mcp"
+    }
+  ]
+}
