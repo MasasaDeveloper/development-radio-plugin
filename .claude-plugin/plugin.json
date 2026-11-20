@@ -1,7 +1,7 @@
 {
   "name": "development-radio",
   "displayName": "Development Radio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search Development Radio's episodes on AI, security and software development news and engineering practices, with each episode's primary sources and timed transcript.",
   "author": {
     "name": "Dorel Masasa",

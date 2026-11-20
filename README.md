@@ -59,6 +59,8 @@ Any client that supports remote Streamable HTTP servers can use the same URL. A 
 
 When Claude calls a tool, the plugin sends that tool's arguments (your search keywords or an episode id) to `https://developmentradio.dev/mcp`. It sends nothing else: no conversation content, files or account details. The server needs no sign-in, returns only what is already public on developmentradio.dev, and keeps no record of who asks or what they ask. The host, Cloudflare, keeps standard server logs, as it does for any page on the site.
 
+To see which episodes are useful and where the catalogue has gaps, the server keeps aggregate usage counts in Cloudflare Workers Analytics Engine: for each request, the tool used, whether it succeeded, how many results it returned, whether a search found nothing, and the ids of the episodes it returned. It does not store your search keywords, the ids or other arguments you send, your IP address, client details or anything else that identifies you or your conversation. Cloudflare keeps these counts for three months.
+
 Privacy policy: https://developmentradio.dev/privacy/
 
 ## Problems and questions
