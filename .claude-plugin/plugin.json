@@ -1,8 +1,8 @@
 {
   "name": "development-radio",
   "displayName": "Development Radio",
-  "version": "1.0.1",
-  "description": "Search Development Radio's episodes on AI, security and software development news and engineering practices, with each episode's primary sources and timed transcript.",
+  "version": "1.0.2",
+  "description": "Search Development Radio's episodes on AI, security and software development news and its field guides on engineering decisions, with the primary sources each one cites and every episode's timed transcript.",
   "author": {
     "name": "Dorel Masasa",
     "url": "https://developmentradio.dev/about/"
@@ -10,7 +10,7 @@
   "homepage": "https://developmentradio.dev/",
   "repository": "https://github.com/MasasaDeveloper/development-radio-plugin",
   "license": "MIT",
-  "keywords": ["podcast", "security", "cve", "engineering-practices", "transcripts", "mcp"],
+  "keywords": ["podcast", "security", "cve", "engineering-practices", "transcripts", "field-guides", "mcp"],
   "icon": "./icon.png",
   "documentationUrl": "https://github.com/MasasaDeveloper/development-radio-plugin#readme",
   "supportUrl": "https://github.com/MasasaDeveloper/development-radio-plugin/issues",
